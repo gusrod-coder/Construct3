@@ -1,0 +1,40 @@
+{
+	"name": "Textbox sample ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 694186912650822,
+					"parameters": {
+						"interval-seconds": "0.05"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 488414402082904,
+					"parameters": {
+						"first-value": "len(sample.Text)",
+						"comparison": 4,
+						"second-value": "len(SpriteFont.Text)"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "SpriteFont",
+					"sid": 907281533274624,
+					"parameters": {
+						"text": "left(sample.Text, len(SpriteFont.Text) + 1) "
+					}
+				}
+			],
+			"sid": 130005383910446
+		}
+	],
+	"sid": 491794379404706
+}

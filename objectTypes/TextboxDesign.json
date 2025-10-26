@@ -1,0 +1,52 @@
+{
+	"name": "TextboxDesign",
+	"plugin-id": "Sprite",
+	"sid": 795138393339155,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1884,
+						"height": 503,
+						"originX": 0.5,
+						"originY": -0.4135188866799205,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6436509,
+						"collisionPoly": {
+							"points": [
+								0.014861995753715499,
+								0.003976143141153081,
+								0.9978768577494692,
+								0.15308151093439365,
+								0.9867303609341825,
+								0.9960238568588469,
+								0.0010615711252653928,
+								0.8667992047713717
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 454420417361678,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
