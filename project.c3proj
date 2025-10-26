@@ -119,14 +119,22 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
+<<<<<<< HEAD
+			"Layout 2"
+=======
 			"Gather_The_Sheeps"
+>>>>>>> b41e3fb0edfe0910115975398bf9db6ebf088dd0
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
+<<<<<<< HEAD
+			"Event sheet 2"
+=======
 			"Gather_The_Sheeps"
+>>>>>>> b41e3fb0edfe0910115975398bf9db6ebf088dd0
 		],
 		"subfolders": []
 	},
