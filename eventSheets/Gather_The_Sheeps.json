@@ -1,0 +1,69 @@
+{
+	"name": "Gather_The_Sheeps",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 354686476626169,
+					"parameters": {
+						"interval-seconds": "3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-speed",
+					"objectClass": "Sprite",
+					"sid": 382217029454321,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "0"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "Sprite",
+					"sid": 542013559481217,
+					"parameters": {
+						"angle": "random(0, 360)"
+					}
+				},
+				{
+					"id": "set-speed",
+					"objectClass": "Sprite",
+					"sid": 901366408541415,
+					"behaviorType": "Bullet",
+					"parameters": {
+						"speed": "300"
+					}
+				}
+			],
+			"sid": 325117000549890
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Sprite",
+					"sid": 200826448479446
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Sprite",
+					"sid": 711124157032138,
+					"parameters": {
+						"angle": "random(0, 360)"
+					}
+				}
+			],
+			"sid": 668544321871688
+		}
+	],
+	"sid": 278224007326544
+}

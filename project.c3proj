@@ -104,7 +104,8 @@
 			"Sprite5",
 			"Text2",
 			"Text",
-			"Audio"
+			"Audio",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -117,13 +118,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Gather_The_Sheeps"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Gather_The_Sheeps"
 		],
 		"subfolders": []
 	},
