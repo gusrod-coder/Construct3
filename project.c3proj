@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 44902,
+	"savedWithRelease": 45800,
 	"name": "Testing",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -105,7 +105,8 @@
 			"Text2",
 			"Text",
 			"Audio",
-			"Sprite"
+			"Sheep",
+			"SheepText"
 		],
 		"subfolders": []
 	},
@@ -119,22 +120,14 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-<<<<<<< HEAD
-			"Layout 2"
-=======
-			"Gather_The_Sheeps"
->>>>>>> b41e3fb0edfe0910115975398bf9db6ebf088dd0
+			"sheepgamev2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-<<<<<<< HEAD
-			"Event sheet 2"
-=======
-			"Gather_The_Sheeps"
->>>>>>> b41e3fb0edfe0910115975398bf9db6ebf088dd0
+			"sheepgamesheet"
 		],
 		"subfolders": []
 	},
@@ -303,8 +296,8 @@
 		],
 		"orientations": "landscape",
 		"webgpu": "auto",
+		"multitexturing": "auto",
 		"gpuPreference": "high-performance",
-		"scriptsType": "module",
 		"framerateMode": "vsync",
 		"sampling": "trilinear",
 		"downscaling": "medium",
@@ -315,10 +308,11 @@
 		"maxSpriteSheetSize": 2048,
 		"loaderStyle": "splash",
 		"preloadSounds": true,
+		"uidAllocationMode": "increment",
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
 		"exportFileStructure": "folders",
-		"uidAllocationMode": "increment"
+		"scriptsType": "module"
 	},
 	"viewportWidth": 854,
 	"viewportHeight": 480,

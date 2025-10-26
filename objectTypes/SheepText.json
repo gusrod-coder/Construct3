@@ -1,0 +1,10 @@
+{
+	"name": "SheepText",
+	"plugin-id": "Text",
+	"sid": 315294225895137,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

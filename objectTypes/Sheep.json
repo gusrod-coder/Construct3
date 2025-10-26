@@ -1,0 +1,58 @@
+{
+	"name": "Sheep",
+	"plugin-id": "Sprite",
+	"sid": 930796110707819,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 614,
+						"height": 583,
+						"originX": -0.40879478827361565,
+						"originY": 0.008576329331046312,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5098013,
+						"collisionPoly": {
+							"points": [
+								0.3257328990228013,
+								0.005145797598627788,
+								0.996742671009772,
+								0.43567753001715265,
+								0.8762214983713354,
+								0.9794168096054888,
+								0.6368078175895765,
+								0.9965694682675815,
+								0.23615635179153094,
+								0.9554030874785592,
+								0.004885993485342019,
+								0.29845626072041165,
+								0.1775244299674267,
+								0.022298456260720412
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 761232752378801,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

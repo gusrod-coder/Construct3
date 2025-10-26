@@ -1,0 +1,78 @@
+{
+	"name": "sheepgamesheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "sheepGotten",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 839402384248546
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 818979384609625,
+					"parameters": {
+						"interval-seconds": "1.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-angle",
+					"objectClass": "Sheep",
+					"sid": 320211740148083,
+					"parameters": {
+						"angle": "random(0,360)"
+					}
+				}
+			],
+			"sid": 832356805468638
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 498992770269436
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 498413636043809,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Sheep"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sheep",
+					"sid": 878345324402253
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 276631422360899,
+					"parameters": {
+						"variable": "sheepGotten",
+						"value": "1"
+					}
+				}
+			],
+			"sid": 865187804099440
+		}
+	],
+	"sid": 455478688577143
+}
