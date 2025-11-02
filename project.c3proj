@@ -114,7 +114,12 @@
 			"Audio",
 			"SpriteFont",
 			"sample",
-			"TextboxDesign"
+			"TextboxDesign",
+			"Monarch1",
+			"Monarch2",
+			"Monarch3",
+			"ChooseYourPlayerText",
+			"CharacterPlayer"
 		],
 		"subfolders": []
 	},
@@ -128,14 +133,16 @@
 	"layouts": {
 		"items": [
 			"Layout 1",
-			"TextBox sample"
+			"TextBox sample",
+			"Choose your player"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"Textbox sample ES"
+			"Textbox sample ES",
+			"Choose your player ES"
 		],
 		"subfolders": []
 	},

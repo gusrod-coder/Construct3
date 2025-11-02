@@ -1,5 +1,5 @@
 {
-	"name": "TextBox sample",
+	"name": "Choose your player",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TextboxDesign",
+					"type": "Monarch1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,24 +15,24 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 21,
-					"sid": 207318977778009,
+					"uid": 22,
+					"sid": 461675776085613,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 207318977778009,
+						"sid": 461675776085613,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 431,
-						"y": 231,
-						"width": 752,
-						"height": 165,
-						"originX": 0.5,
-						"originY": -0.4135188866799205,
+						"x": 445.89310709805534,
+						"y": 275.1479445278426,
+						"width": 116.06117812873896,
+						"height": 289.19215131851934,
+						"originX": 1.915909090909091,
+						"originY": 0.5096339113680154,
 						"color": [
 							1,
 							1,
@@ -44,12 +44,86 @@
 					}
 				},
 				{
-					"type": "sample",
+					"type": "Monarch2",
 					"properties": {
-						"text": "Good morning, dear monarch! It is another beautiful day in the kingdom of Tolemac! It is time for you to get up and complete your royal duties. Your people await!\n\n",
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"sid": 893506662306177,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 893506662306177,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 441.89656704114475,
+						"y": 276.64041715545625,
+						"width": 112.13092821301211,
+						"height": 284.4760073391105,
+						"originX": 0.49878345498783455,
+						"originY": 0.5101253616200578,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Monarch3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 24,
+					"sid": 590884382938298,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 590884382938298,
+						"expanded": true
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 431.5465745760473,
+						"y": 275.49357379351284,
+						"width": 112.78169803945138,
+						"height": 284.3362523022106,
+						"originX": -1.0170316301703164,
+						"originY": 0.5106177606177607,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "ChooseYourPlayerText",
+					"properties": {
+						"text": "CHOOSE YOUR PLAYER",
 						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
+						"font": "cursive",
+						"size": 17,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -68,108 +142,24 @@
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 20,
-					"sid": 255015517161398,
+					"uid": 25,
+					"sid": 507763219906618,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 255015517161398,
+						"sid": 507763219906618,
 						"expanded": true
 					},
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 211,
-						"y": -119,
-						"width": 386,
-						"height": 125,
+						"x": 304.01564937935717,
+						"y": 53.4550666809082,
+						"width": 287.2488735106496,
+						"height": 43.362432928751986,
 						"originX": 0,
 						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "SpriteFont",
-					"properties": {
-						"text": "Text",
-						"enable-bbcode": true,
-						"character-width": 16,
-						"character-height": 16,
-						"character-set": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,;:?!-_~#\"'&()[]|`\\/@°+=*$£€<>",
-						"spacing-data": "",
-						"scale": 1,
-						"character-spacing": 0,
-						"line-height": 0,
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 19,
-					"sid": 207409966008862,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 207409966008862,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 96,
-						"y": 346,
-						"width": 675,
-						"height": 81,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "CharacterPlayer",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 26,
-					"sid": 732598268840028,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"instanceFolderItem": {
-						"sid": 732598268840028,
-						"expanded": true
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 544,
-						"y": 173,
-						"width": 110,
-						"height": 277,
-						"originX": 1.915909090909091,
-						"originY": 0.5096339113680154,
 						"color": [
 							1,
 							1,
@@ -181,7 +171,7 @@
 					}
 				}
 			],
-			"sid": 144630198472409,
+			"sid": 505604285126435,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -215,7 +205,7 @@
 		"items": [],
 		"subfolders": []
 	},
-	"sid": 686053831298535,
+	"sid": 108608479528715,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -224,5 +214,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Textbox sample ES"
+	"eventSheet": "Choose your player ES"
 }

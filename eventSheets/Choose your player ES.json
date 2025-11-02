@@ -1,0 +1,168 @@
+{
+	"name": "Choose your player ES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 864133097805210,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Monarch1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 133962721528442,
+					"parameters": {
+						"layout": "\"TextBox Sample\""
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 714677964921621,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "add-remove-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 351994271743314,
+					"parameters": {
+						"which": "remove",
+						"animation": "\"1\"",
+						"where": "-1"
+					}
+				},
+				{
+					"id": "add-remove-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 658895736390979,
+					"parameters": {
+						"which": "remove",
+						"animation": "\"1\"",
+						"where": "1"
+					}
+				}
+			],
+			"sid": 500127536989569
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 505284207094771,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Monarch2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 657998830997808,
+					"parameters": {
+						"layout": "\"TextBox Sample\""
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 879910283083512,
+					"parameters": {
+						"frame-number": "1"
+					}
+				},
+				{
+					"id": "add-remove-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 943987774589853,
+					"parameters": {
+						"which": "remove",
+						"animation": "\"1\"",
+						"where": "-1"
+					}
+				},
+				{
+					"id": "add-remove-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 180687746830079,
+					"parameters": {
+						"which": "remove",
+						"animation": "\"1\"",
+						"where": "0"
+					}
+				}
+			],
+			"sid": 209822968496177
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 758632446555755,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Monarch3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 103819767724860,
+					"parameters": {
+						"layout": "\"TextBox Sample\""
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 437347026669652,
+					"parameters": {
+						"frame-number": "2"
+					}
+				},
+				{
+					"id": "add-remove-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 226277752801214,
+					"parameters": {
+						"which": "remove",
+						"animation": "\"1\"",
+						"where": "0"
+					}
+				},
+				{
+					"id": "add-remove-animation-frame",
+					"objectClass": "CharacterPlayer",
+					"sid": 204076644313937,
+					"parameters": {
+						"which": "remove",
+						"animation": "\"1\"",
+						"where": "1"
+					}
+				}
+			],
+			"sid": 875210133293701
+		}
+	],
+	"sid": 966341951870341
+}

@@ -1,0 +1,66 @@
+{
+	"name": "Monarch2",
+	"plugin-id": "Sprite",
+	"sid": 316676304287313,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 411,
+						"height": 1037,
+						"originX": 0.49878345498783455,
+						"originY": 0.5101253616200578,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9911988,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.0019286403085824494,
+								1,
+								0.0019286403085824494,
+								1,
+								0.041465766634522665,
+								1,
+								0.1726133076181292,
+								1,
+								0.682738669238187,
+								1,
+								0.9971070395371263,
+								0,
+								0.9971070395371263,
+								0,
+								0.944069431051109,
+								0,
+								0.29990356798457085,
+								0,
+								0.17454194792671165,
+								0,
+								0.03664416586306654
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 560107041708606,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

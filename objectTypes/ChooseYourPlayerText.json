@@ -1,0 +1,10 @@
+{
+	"name": "ChooseYourPlayerText",
+	"plugin-id": "Text",
+	"sid": 980625874261697,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
